@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:gigo_clean/constants/constants.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gigo_clean/screens/user_home_screen.dart';
-import 'package:gigo_clean/widgets/custom_login_button.dart';
+import 'package:gigo_clean/user/screen/user_home_screen.dart';
+import 'package:gigo_clean/user/widgets/custom_login_button.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);

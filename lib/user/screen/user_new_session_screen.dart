@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gigo_clean/constants/constants.dart';
-import 'package:gigo_clean/screens/user_new_session_confirm_page.dart';
+
 import 'package:dotted_line/dotted_line.dart';
 
 class UserNewSessionScreen extends StatefulWidget {
@@ -203,7 +203,9 @@ class _UserNewSessionScreenState extends State<UserNewSessionScreen> {
                         ),
                       ),
                       Container(
+                      height: 100.h,
                         child: Column(
+                          mainAxisAlignment: MainAxisAlignment.spaceAround,
                           children: [
                             Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -250,6 +252,7 @@ class _UserNewSessionScreenState extends State<UserNewSessionScreen> {
                           ],
                         ),
                       ),
+                      SizedBox(height: 0.5.h,),
                       Row(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
@@ -266,6 +269,7 @@ class _UserNewSessionScreenState extends State<UserNewSessionScreen> {
                           )
                         ],
                       ),
+                      SizedBox(height: 10.h,),
                       FloatingActionButton.extended(
                           backgroundColor: kprimaryColor,
                           onPressed: () {},

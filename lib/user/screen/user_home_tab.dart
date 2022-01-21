@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gigo_clean/constants/constants.dart';
-import 'package:gigo_clean/widgets/custom_user_home_button.dart';
+import 'package:gigo_clean/user/widgets/custom_user_home_button.dart';
+
 
 class UserHomeTab extends StatefulWidget {
   const UserHomeTab({Key? key}) : super(key: key);
@@ -27,7 +28,7 @@ class _UserHomeTabState extends State<UserHomeTab> {
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
+            children: const [
               custom_user_home_button(title: "Book a new cleaning session"),
               custom_user_home_button(title: "Recent Bookings"),
               custom_user_home_button(title: "Reviews on cleaners"),

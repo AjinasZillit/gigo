@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:gigo_clean/constants/constants.dart';
-import 'package:gigo_clean/screens/user_booking_screen.dart';
-import 'package:gigo_clean/screens/user_home_tab.dart';
-import 'package:gigo_clean/screens/user_new_session_screen.dart';
-import 'package:gigo_clean/screens/user_reviews_screen.dart';
-import 'package:gigo_clean/screens/user_services_screen.dart';
+import 'package:gigo_clean/user/screen/user_booking_screen.dart';
+import 'package:gigo_clean/user/screen/user_home_tab.dart';
+import 'package:gigo_clean/user/screen/user_new_session_screen.dart';
+import 'package:gigo_clean/user/screen/user_reviews_screen.dart';
+import 'package:gigo_clean/user/screen/user_services_screen.dart';
+
 
 class UserHomeScreen extends StatefulWidget {
   const UserHomeScreen({Key? key}) : super(key: key);
